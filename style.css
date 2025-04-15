@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    padding: 20px;
+  }
+  
+  h1, h2,h3 {
+    color: #007acc;
+  }
+  
+  ul {
+    list-style-type: square;
+  }
+  
+  img {
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+
+  /* 見出しの色を青にする */
+h2 {
+  color: #3498db;
+}
+
+/* 段落の文字サイズを少し大きめに */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.intro {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.contact i {
+  margin-right: 8px;
+  color: #3498db;
+}
+
+.my-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
